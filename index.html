@@ -8,274 +8,262 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;500&family=Roboto:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;500&family=Roboto:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <!-- 🟡 TOPBAR -->
+    <div class="topbar">
+        <div class="topbar-container">
+            <div class="topbar-left">
+                <span class="icon">✉</span>
+                <span>contato@ellevestetic.com.br</span>
+            </div>
+            <div class="topbar-right">
+                <span class="icon">📍</span>
+                <span>Avenida presidente Epitácio Pessoa, 2930, João Pessoa - PB</span>
+            </div>
+            <div class="topbar-social">
+                <a href="https://www.instagram.com/ellevestetic/" target="_blank" class="social-icon" aria-label="Instagram">
+                    <img src="images/instagram.svg" alt="Instagram">
+                </a>
+                <a href="https://www.facebook.com/ellevestetic/" target="_blank" class="social-icon" aria-label="Facebook">
+                    <img src="images/facebook.svg" alt="Facebook">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER / MENU -->
     <header class="header">
-        <div class="container">
+        <div class="container header-inner">
             <div class="logo">
+                <img src="images/logo.png" alt="Elleve Estética Logo">
             </div>
             <nav>
                 <ul class="nav-menu" id="navMenu">
-                    <li><a href="#inicio">Início</a></li>
-                    <li><a href="#tratamentos">Tratamentos</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#tratamentos">Procedimentos</a></li>
                     <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#depoimentos">Depoimentos</a></li>
                     <li><a href="#contato">Contato</a></li>
-<li>
-  <a class="vip-link" href="https://chat.whatsapp.com/FbUR5CiADpmFHOiMQMKLBQ?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGneS3XnnVJMOM3-GqcyB7GJlR1L10ECGQylXPrXzGzXT-0Fgc9jTBY5aald5w_aem_M2a5MFOdiQr91JYcY6w5NQ" target="_blank">
-    ✨ Grupo Vip
-  </a>
-</li>
                 </ul>
             </nav>
-            <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-                <svg viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
-            </button>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir menu">☰</button>
         </div>
     </header>
 
-   <section class="hero" id="inicio">
+    <!-- HERO CAROUSEL -->
+    <section class="hero-carousel" id="home">
+        <button class="hero-btn prev" aria-label="Slide anterior">❮</button>
+        <button class="hero-btn next" aria-label="Próximo slide">❯</button>
 
-</section>
-  <section class="treatments" id="tratamentos">
-    <div class="container">
-
-        <div class="section-header">
-            <h1>Nossos Tratamentos</h1>
+        <div class="hero-slide active" style="background-image: url('./images/female-at-session-of-care-procedures-in-aesthetic-2023-05-13-02-53-38-utc-scaled.jpg');">
+            <div class="hero-content">
+                <h1>Revele sua Beleza Radiante</h1>
+                <p>Descubra os segredos para uma pele jovem com nossos tratamentos personalizados.</p>
+                <a href="https://wa.me/5583998858437" class="btn">Agendar avaliação</a>
+            </div>
         </div>
 
-        <div class="treatments-grid">
+        <div class="hero-slide" style="background-image: url('./images/imagem-1.png');">
+            <div class="hero-content">
+                <h1>Sinta-se Rejuvenescido(a)</h1>
+                <p>Excelência em procedimentos de harmonização facial e corporal.</p>
+                <a href="https://wa.me/5583998858437" class="btn">Agendar avaliação</a>
+            </div>
+        </div>
 
-            <div class="treatments-grid">
-
-    <div class="treatment-card">
-        <img src="images/Harmonizacao-Facial.jpg" alt="Harmonização Facial">
-        <h3>Harmonização Facial</h3>
-        <p>É um conjunto de procedimentos que visam melhorar a qualidade da pele...</p>
-     <a href="https://wa.me/5583998858437" class="card-btn" target="_blank">
-    Agendar
-</a>
-    </div>
-
-    <div class="treatment-card">
-        <img src="images/Toxina-Botulinica.jpg" alt="Toxina Botulínica">
-        <h3>Toxina Botulínica</h3>
-        <p>Substância utilizada em pontos estratégicos da face...</p>
-        <a href="https://wa.me/5583998858437" class="card-btn" target="_blank">
-    Agendar
-</a>
-    </div>
-
-    <div class="treatment-card">
-        <img src="images/Preenchimento-Facial.jpg" alt="Preenchimento Facial">
-        <h3>Preenchimento Facial</h3>
-        <p>Procedimento realizado para dar volume e sustentação...</p>
-        <a href="https://wa.me/5583998858437" class="card-btn" target="_blank">
-    Agendar
-</a>
-    </div>
-
-    <div class="treatment-card">
-        <img src="images/Ultrassom-Microfocado.jpg" alt="Ultraformer III">
-        <h3>Ultraformer III</h3>
-        <p>Ultrassom micro e macro focado de última geração para rejuvenescimento.</p>
-        <a href="https://wa.me/5583998858437" class="card-btn" target="_blank">
-    Agendar
-</a>
-    </div>
-
-    <div class="treatment-card">
-        <img src="images/Bioestimulador-de-Colageno.jpg" alt="Bioestimulador de Colágeno">
-        <h3>Bioestimulador de Colágeno</h3>
-        <p>Estimula produção de colágeno e melhora firmeza da pele.</p>
-        <a href="https://wa.me/5583998858437" class="card-btn" target="_blank">
-    Agendar
-</a>
-    </div>
-
-    <div class="treatment-card">
-        <img src="images/FIos-de-Sustentacao.jpg" alt="Fios de Sustentação">
-        <h3>Fios de Sustentação</h3>
-        <p>Reposiciona tecidos e promove lifting facial sem cirurgia.</p>
-    <a href="https://wa.me/5583998858437" class="card-btn" target="_blank">
-    Agendar
-</a>
-    </div>
-
-    <div class="treatment-card">
-        <img src="images/Skinbooster.jpg" alt="Skinbooster">
-        <h3>Skinbooster</h3>
-        <p>Hidratação profunda e melhora da elasticidade da pele.</p>
-        <a href="https://wa.me/5583998858437" class="card-btn" target="_blank">
-    Agendar
-</a>
-    </div>
-
-    <div class="treatment-card">
-        <img src="images/Microagulhamento.jpg" alt="Microagulhamento">
-        <h3>Microagulhamento</h3>
-        <p>Estimula colágeno e trata flacidez, manchas e cicatrizes.</p>
-        <a href="https://wa.me/5583998858437" class="card-btn" target="_blank">
-    Agendar
-</a>
-    </div>
-
-    <div class="treatment-card">
-        <img src="images/Peeling-Quimico.jpg" alt="Peeling Químico">
-        <h3>Peeling Químico</h3>
-        <p>Melhora manchas, rugas finas e textura da pele.</p>
-      <a href="https://wa.me/5583998858437" class="card-btn" target="_blank">
-    Agendar
-</a>
+        <div class="hero-slide" style="background-image: url('./images/hip-mesotherapy-is-an-injection-method-in-aestheti-2022-11-12-00-54-40-utc-1-scaled.jpg');">
+            <div class="hero-content">
+                <h1>Diga adeus à flacidez</h1>
+                <p>Experimente os benefícios dos nossos tratamentos corporais avançados.</p>
+                <a href="https://wa.me/5583998858437" class="btn">Agendar avaliação</a>
+            </div>
         </div>
     </section>
 
-<section class="about" id="sobre">
-    <div class="container">
-
-        <div class="about-wrapper">
-    <div class="about-card">
-        <h3>Autoestima e Bem-Estar</h3>
-        <h2>A Importância da Estética na Sociedade</h2>
-
-        <p>
-            Muito mais do que atuar na aparência, a estética cuida da pessoa. Os benefícios de tratamentos estéticos geram reflexos não só no aspecto físico, mas também trabalham o lado emocional e trazem mudanças na autoestima. Uma pessoa saudável é reluzente! Expressa o brilho do cuidado com seu maior patrimônio.
-        </p>
-
-        <p class="cuide-se">
-            Cuide-se! ♥
-        </p>
-    </div>
-
-        <div class="about-grid" style="margin-top: 80px;text-align: center;">
-            <div class="about-card">
-                <h2>Nossa Missão</h2>
-                <p>Entendemos que cada ser humano é único em sua essência e beleza, e por isso especiais. Nossa missão é ajudar as pessoas a encontrarem sua melhor versão, por isso recebemos pacientes de todo o País e até mesmo do exterior, para realizar nossos tratamentos personalizados. Trabalhamos constantemente em busca de capacitação, investindo em tratamentos e tecnologias de ponta, como por exemplo o Ultraformer 3 e Lavieen. Através das nossas soluções em tratamentos, cuidamos da sua saúde, bem-estar e beleza. Fazendo com que você realce sua beleza, envelheça em sua melhor versão, realizando nossa harmonização facial, seja para melhorar a firmeza de pele, para clarear manchas, para atenuar rugas ou até mesmo receber uma orientação sobre como cuidar da pele em casa. Nosso objetivo é o embelezamento natural da face, evitando assim resultados exagerados e a perda de identidade.</p>
-                <p>Nossa missão é ajudar as pessoas a encontrarem sua melhor versão...</p>
-            </div>
-            <div class="about-image">
-                <img src="./images/soubrenner-2.jpg" alt="Equipe">
-            </div>
-    
-</section>
-<section class="results" id="resultados">
-    <div class="container">
-
-        <div class="section-header">
-            <p>Resultados Reais</p>
-            <h2>Transformações dos Nossos Pacientes</h2>
-        </div>
-
-        <div class="results-wrapper">
-            <div class="results-track">
-
-                <div class="result-card">
-                    <img src="images/3.png" alt="Resultado 1">
-                </div>
-
-                <div class="result-card">
-                    <img src="images/brener.png" alt="Resultado 2">
-                </div>
-
-                <div class="result-card">
-                    <img src="images/2.png" alt="Resultado 3">
-                </div>
-
-                <div class="result-card">
-                    <img src="images/1.png" alt="Resultado 4">
-                </div>
-
-                <!-- DUPLICADO PARA LOOP INFINITO -->
-                <div class="result-card">
-                    <img src="images/3.png" alt="Resultado 1">
-                </div>
-
-                <div class="result-card">
-                    <img src="images/brener.png" alt="Resultado 2">
-                </div>
-
-                <div class="result-card">
-                    <img src="images/2.png" alt="Resultado 3">
-                </div>
-
-                <div class="result-card">
-                    <img src="images/1.png" alt="Resultado 4">
-                </div>
-
-            </div>
-        </div>
-
-    </div>
-</section>
-    <section class="testimonials" id="depoimentos">
+    <!-- TRATAMENTOS -->
+    <section class="treatments" id="tratamentos">
         <div class="container">
             <div class="section-header">
-                <p>O que Dizem Sobre Nós?</p>
-                <h2>Depoimentos das Nossas Clientes </h2>
+                <p>Nossos Procedimentos</p>
+                <h1>Tratamentos Especializados</h1>
             </div>
-            <div class="testimonials-grid">
-        <div class="testimonials-wrapper">
-            <div class="testimonials-track">
 
-                <!-- ORIGINAL -->
-                <div class="testimonial-card">
-                    <img src="images/depoimento-danielle-trinca-768x384.jpg">
+            <div class="carousel">
+                <button class="carousel-btn prev" aria-label="Anterior">❮</button>
+                <div class="carousel-track">
+                    <div class="treatment-card" data-url="harmonizacao.html">
+                        <img src="images/Harmonizacao-Facial.jpg" alt="Harmonização Facial">
+                        <h3>Harmonização Facial</h3>
+                    </div>
+                    <div class="treatment-card" data-url="toxina-botulinica.html">
+                        <img src="images/Toxina-Botulinica.jpg" alt="Toxina Botulínica">
+                        <h3>Toxina Botulínica</h3>
+                    </div>
+                    <div class="treatment-card" data-url="preenchimento-facial.html">
+                        <img src="images/Preenchimento-Facial.jpg" alt="Preenchimento Facial">
+                        <h3>Preenchimento Facial</h3>
+                    </div>
+                    <div class="treatment-card" data-url="ultraformer.html">
+                        <img src="images/Ultrassom-Microfocado.jpg" alt="Ultraformer III">
+                        <h3>Ultraformer III</h3>
+                    </div>
+                    <div class="treatment-card" data-url="bioestimulador.html">
+                        <img src="images/Bioestimulador-de-Colageno.jpg" alt="Bioestimulador">
+                        <h3>Bioestimulador</h3>
+                    </div>
                 </div>
-
-                <div class="testimonial-card">
-                    <img src="images/depoimento-karina-cabral-768x384.jpg">
-                </div>
-
-                <div class="testimonial-card">
-                    <img src="images/depoimento-sonia-vieira-768x384.jpg">
-                </div>
-
-                <!-- DUPLICADO (OBRIGATÓRIO PRA LOOP INFINITO) -->
-                <div class="testimonial-card">
-                    <img src="images/depoimento-danielle-trinca-768x384.jpg">
-                </div>
-
-                <div class="testimonial-card">
-                    <img src="images/depoimento-karina-cabral-768x384.jpg">
-                </div>
-
-                <div class="testimonial-card">
-                    <img src="images/depoimento-sonia-vieira-768x384.jpg">
-                </div>
-
-            </div>
-</section>
-
+                <button class="carousel-btn next" aria-label="Próximo">❯</button>
             </div>
         </div>
     </section>
 
+    <!-- SOBRE -->
+    <section class="about" id="sobre">
+        <div class="container">
+            <div class="about-wrapper">
+                <div class="about-text">
+                    <span class="about-tag">Elleve Stetic</span>
+                    <h2>A Importância da Estética</h2>
+                    <p>A estética vai muito além da aparência — ela é sobre presença, confiança e impacto. É sobre como você é percebido e, principalmente, como você se sente ao se olhar no espelho.
+
+Cada protocolo é desenvolvido de forma personalizada para revelar sua melhor versão com naturalidade, sofisticação e precisão. Não se trata de mudar quem você é, mas de elevar o que você já tem de mais bonito.
+
+Trabalhamos com técnicas avançadas, segurança e um padrão elevado de atendimento para entregar resultados reais, consistentes e harmoniosos.
+
+Atendemos um número limitado de pacientes justamente para garantir excelência em cada detalhe — porque qualidade nunca é sobre volume.
+
+A sua transformação começa no momento em que você decide se priorizar.</p>
+                    <p>Nosso objetivo é realçar sua beleza natural com equilíbrio, elegância e segurança.</p>
+                    <a href="https://wa.me/5583998858437" class="btn">Agendar avaliação</a>
+                </div>
+                <div class="about-images">
+                    <img src="./images/paulaluthyana-9.jpg" class="img-main" alt="Procedimento estético">
+                    <img src="./images/paulaluthyana-19.jpg" class="img-secondary" alt="Clínica Elleve">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VÍDEO -->
+<section class="video-section">
+  <div class="container">
+
+    <h2 class="section-title">Nossa Clínica</h2>
+
+    <div class="video-wrapper">
+      <div class="video-thumbnail">
+        <iframe 
+          src="https://www.youtube.com/embed/TeASejKS5sQ"
+          allow="autoplay; encrypted-media"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+
+  </div>
+</section>
+    <!-- RESULTADOS -->
+    <section class="results" id="resultados">
+        <div class="container">
+            <div class="section-title">
+                <p>Resultados Reais</p>
+                <h2>Transformações de Pacientes</h2>
+            </div>
+            <div class="results-wrapper">
+                <div class="results-track">
+                    <div class="result-card"><img src="images/3.png" alt="Resultado"></div>
+                    <div class="result-card"><img src="images/brener.png" alt="Resultado"></div>
+                    <div class="result-card"><img src="images/2.png" alt="Resultado"></div>
+                    <div class="result-card"><img src="images/1.png" alt="Resultado"></div>
+                    <!-- Duplicados para loop -->
+                    <div class="result-card"><img src="images/3.png" alt="Resultado"></div>
+                    <div class="result-card"><img src="images/brener.png" alt="Resultado"></div>
+                    <div class="result-card"><img src="images/2.png" alt="Resultado"></div>
+                    <div class="result-card"><img src="images/1.png" alt="Resultado"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="unit-section">
+  <div class="container">
+
+    <div class="unit-card">
+
+      <!-- LADO ESQUERDO (INFORMAÇÃO) -->
+      <div class="unit-info">
+
+        <span class="unit-tag">UNIDADE</span>
+
+        <h2>João Pessoa - PB</h2>
+
+        <p class="unit-desc">
+          Clínica completa e moderna
+        </p>
+
+        <p class="unit-highlight">
+          Agende sua avaliação!
+        </p>
+
+      </div>
+
+      <!-- LADO DIREITO (FORMULÁRIO LIMPO) -->
+      <div class="unit-form">
+
+        <input type="text" id="name" placeholder="Seu nome" required>
+        <input type="tel" id="phone" placeholder="Seu telefone">
+
+        <button id="sendWhats">Agendar pelo WhatsApp</button>
+
+        <small>Atendimento rápido via WhatsApp</small>
+
+      </div>
+
+    </div>
+
+  </div>
+  
+</section>
+
+
+
+         <!-- DEPOIMENTOS -->
+    <section class="testimonials" id="depoimentos">
+        <div class="container">
+            <div class="section-title">
+                <p>Depoimentos</p>
+                <h2>O que dizem nossas clientes</h2>
+            </div>
+            <div class="testimonials-wrapper">
+                <div class="testimonials-track">
+                    <div class="testimonial-card"><img src="images/depoimento-danielle-trinca-768x384.jpg" alt="Depoimento"></div>
+                    <div class="testimonial-card"><img src="images/depoimento-karina-cabral-768x384.jpg" alt="Depoimento"></div>
+                    <div class="testimonial-card"><img src="images/depoimento-sonia-vieira-768x384.jpg" alt="Depoimento"></div>
+                    <!-- Duplicados para loop -->
+                    <div class="testimonial-card"><img src="images/depoimento-danielle-trinca-768x384.jpg" alt="Depoimento"></div>
+                    <div class="testimonial-card"><img src="images/depoimento-karina-cabral-768x384.jpg" alt="Depoimento"></div>
+                    <div class="testimonial-card"><img src="images/depoimento-sonia-vieira-768x384.jpg" alt="Depoimento"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
     <section class="contact" id="contato">
-       <div class="contact-float-card">
-
-    <p>
-        Fale conosco pelo WhatsApp clicando no botão abaixo, tire suas dúvidas e agende sua consulta.
-    </p>
-
-    <a href="https://wa.me/5583998858437" target="_blank" class="btn">
-        Conversar no WhatsApp
-    </a>
-
-    <div class="location">
-    <img src="images/icone-loc.png" alt="Localização">
-    <span>João Pessoa, Paraíba / PB</span>
-</div>
-
-    <div class="map-container">
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.052499735831!2d-34.844107900000004!3d-7.1199147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7acdd4968c55a0b%3A0x4a7569804e5e5dc2!2sAtlantis%20Offices%20Design%20Empresarial!5e0!3m2!1spt-BR!2sbr!4v1776226344547!5m2!1spt-BR!2sbr"
-    allowfullscreen=""
-    loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade">
-  </iframe>
-</div>
+        <div class="container">
+            <div class="contact-float-card">
+                <p>Fale conosco pelo WhatsApp, tire suas dúvidas e agende sua consulta.</p>
+                <a href="https://wa.me/5583998858437" target="_blank" class="btn">Conversar no WhatsApp</a>
+                <div class="location">
+                    <img src="images/icone-loc.png" alt="Localização">
+                    <span>João Pessoa, Paraíba / PB</span>
+                </div>
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.052499735831!2d-34.844107900000004!3d-7.1199147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7acdd4968c55a0b%3A0x4a7569804e5e5dc2!2sAtlantis%20Offices%20Design%20Empresarial!5e0!3m2!1spt-BR!2sbr!4v1776226344547!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy"></iframe>
+            </div>
         </div>
     </section>
 
@@ -285,39 +273,13 @@
         </div>
     </footer>
 
-    <a href="https://wa.me/5511999999999" target="_blank" class="whatsapp-float" rel="noopener noreferrer" aria-label="WhatsApp">
+    <!-- FLOATERS -->
+    <a href="https://wa.me/5583998858437" target="_blank" class="whatsapp-float" aria-label="WhatsApp">
         <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
     </a>
 
-    <script>
-        document.getElementById('mobileToggle').addEventListener('click', function() {
-            document.getElementById('navMenu').classList.toggle('active');
-        });
+    <a href="https://chat.whatsapp.com/FbUR5CiADpmFHOiMQMKLBQ" class="vip-mobile-btn" target="_blank">💎 Grupo VIP</a>
 
-        document.querySelectorAll('.nav-menu a').forEach(link => {
-            link.addEventListener('click', () => {
-                document.getElementById('navMenu').classList.remove('active');
-            });
-        });
-
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            });
-        });
-    </script>
-<a href="https://chat.whatsapp.com/FbUR5CiADpmFHOiMQMKLBQ?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGneS3XnnVJMOM3-GqcyB7GJlR1L10ECGQylXPrXzGzXT-0Fgc9jTBY5aald5w_aem_M2a5MFOdiQr91JYcY6w5NQ"
-   class="vip-mobile-btn"
-   target="_blank">
-   💎 Grupo VIP
-</a>
     <script src="./js/script.js"></script>
 </body>
 </html>
